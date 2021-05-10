@@ -1,0 +1,47 @@
+.magazine-main{
+    margin-bottom: 49px;
+    display: block;
+}
+
+.magazine-main._mg-right{
+    margin-right: 15px;
+}
+
+.magazine-main._mg-left{
+    margin-left: 15px;
+}
+
+.magazine-main__image{
+    height: 235px;
+    width: 100%;
+    background-color: rgba(239, 241, 243, 0.75);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.magazine-main__image._top-margin{
+    background-position-y: 30px
+}
+
+.magazine-main__image._full-cover{
+    background-size: cover;
+}
+
+.magazine-main__description{
+    background: #0E76BC;
+    padding: 24px;
+}
+
+.magazine-main__name{
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.magazine-main__detail-link{
+    color: #fff;
+    font-weight: 300;
+    margin-top: 25px;
+}

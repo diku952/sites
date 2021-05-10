@@ -1,0 +1,52 @@
+.newsletters__wrapper {
+    margin-top: -30px;
+}
+
+.newsletters__container {
+    margin-left: -30px;
+    overflow: hidden;
+}
+
+.newsletters__item {
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+    background: #0E76BC;
+}
+
+.newsletters__image-wrapper {
+    height: 113px;
+    overflow: hidden;
+}
+
+.newsletters__image {
+    max-width: 100%;
+}
+
+.newsletters__date {
+    position: absolute;
+    background: #E83E29;
+    border-radius: 23px;
+    margin-top: -68px;
+    margin-left: 24px;
+    color: #FFFFFF;
+    padding: 2px 18px;
+    font-size: 12px;
+}
+
+.newsletters__name {
+    font-size: 20px!important;
+    color: #FFFFFF!important;
+    text-transform: none!important;
+    margin: 24px 0 0 24px!important;
+    line-height: 150%!important;
+}
+
+.newsletters__link {
+    display: block;
+}
+
+.newsletters__box {
+    min-height: 113px;
+}

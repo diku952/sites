@@ -1,0 +1,252 @@
+
+.selector {
+    position: relative;
+    width: 100%;
+}
+
+.selector .selector-input {
+    width: 100%;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 11px 24px 5px 8px;
+    height: auto;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #D4D8DF;
+    outline: none;
+}
+
+
+.selector .selector-button {
+    position: absolute;
+    right: 2px;
+    width: 25px;
+    height: 40px;
+    background: url(images/arrow_down.svg) no-repeat center center;
+}
+
+.selector .selector-button.selector-button-active {
+
+}
+
+.selector.selector-filter .selector-input {
+    cursor: text;
+}
+
+.selector.selector-disabled .selector-input {
+    border-color: #9F9E9E;
+}
+
+.selector.selector-disabled .selector-button {
+    background-position: 0 -40px;
+    border-color: #9F9E9E;
+}
+
+.selector-menu {
+    display: none;
+    border: 1px solid #D4D8DF;
+    background: #fff;
+    position: absolute;
+    text-align: left;
+    z-index: 10000;
+    border-radius: 3px;
+
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.selector-menu a {
+    text-decoration: none;
+}
+
+.selector-menu a:hover {
+
+}
+
+.selector-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none outside none;
+}
+
+.selector-menu-header {
+    border-radius: 3px;
+    margin-bottom: 6px;
+    padding: 6px;
+    color: #0E76BC;
+}
+
+.selector-menu-header:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.selector-menu-header li {
+    float: left;
+    padding: 0;
+}
+
+.selector-menu-header li a {
+    color: #0E76BC;
+    text-decoration: none;
+}
+
+.selector-menu-header .li-close {
+    float: right;
+    margin-right: 3px;
+}
+
+.selector-menu-header .li-close .icon-close {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(selector_icon_sprite.png) no-repeat -1px -62px;
+}
+
+.selector-menu-list {
+    max-height: 290px;
+    overflow: auto;
+    color: #646464;
+}
+
+.selector-container-active {
+    opacity: 1;
+}
+
+.selector-menu-list ul {
+    height: auto;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.selector-menu-list ul li {
+    padding: 0;
+    margin-top: 0;
+}
+
+.selector-menu ul li:before {
+    display: none;
+}
+
+.selector-menu-list label {
+    cursor: pointer;
+    display: block;
+    padding: 6px;
+}
+
+.selector-menu-list .item-active {
+    background: #4b82d2;
+    color: #fff;
+}
+
+.selector-menu-list .item-active:hover {
+    background: #4b82d2;
+}
+.selector-menu-list .item-active.item-hover {
+    background: #4b82d2;
+}
+
+.selector-menu-list .item-hover {
+    background: #F1F3F5;
+}
+
+.selector-menu-list .item-disabled {
+    background: #ccc;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.selector-menu-list .group-line {
+    overflow: hidden;
+    line-height: 0px;
+    font-size: 0px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.selector-menu-single label {
+
+}
+
+.selector-menu-single label input {
+    display: none !important;
+}
+
+.selector-item__title {
+    width: calc(100% - 34px);
+    display: inline-block;
+}
+
+.selector-item__checkbox-input {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+}
+
+.selector-item__checkbox-icon {
+    float: right;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 2px 5px 0 0;
+    vertical-align: top;
+    border: 1px solid #D4D8DF;
+    border-radius: 2px;
+    background: #fff;
+    transition: all .25s ease-out;
+    cursor: pointer;
+}
+
+.selector-item__checkbox-icon:before {
+    opacity: 0;
+    content: '';
+    width: 18px;
+    height: 18px;
+    displaY: inline-block;
+    background: url(images/check.svg) no-repeat 2px 4px;
+}
+
+.selector-item__checkbox-input:checked ~ .selector-item__checkbox-icon:before {
+    opacity: 1;
+}
+
+.mobile-select {
+    width: 100%;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 11px 24px 5px 8px;
+    height: auto;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #D4D8DF;
+    outline: none;
+    overflow: hidden;
+
+    /* reset */
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+}
+.mobile-select {
+    /*отступ дял текста*/
+    padding-right: 23px;
+    background: #fff url(../images/selector-arrow.svg) no-repeat 0 0;
+    -moz-transition: all .25s;
+    transition: all .25s;
+    background-position: 100% 0;
+}
+.mobile-select option {
+    /*отступ дял текста*/
+    padding-right: 23px;
+    overflow: hidden;
+}

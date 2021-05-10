@@ -1,0 +1,36 @@
+.partners-sprite_additional_01 {
+    background-image: url(../img/partners/16a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 41px;
+    height: 39px;
+    opacity: 0.5;
+}
+
+.partners-sprite_additional_01:hover {
+    background-image: url(../img/partners/16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 41px;
+    height: 39px;
+    opacity: 1;
+}
+
+.partners-sprite_additional_02 {
+    background-image: url(../img/sun.png);
+    background-size: 75px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 75px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 5px;
+    opacity: 0.5;
+}
+
+.partners-sprite_additional_02:hover {
+    background-position: 0 -23px;
+    opacity: 1;
+}

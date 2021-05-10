@@ -1,0 +1,191 @@
+.partners-sprite {
+    background-image: url(../img/partners-spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.footer_partners__whited-bg .partners-sprite {
+    background-image: url(../img/partners-white-spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.footer_partners .partners-sprite-01 {
+    width: 37px;
+    height: 42px;
+    background-position: -10px -8px;
+}
+
+.partners-sprite-01:hover {
+    width: 37px;
+    height: 42px;
+    background-position: -112px -8px;
+}
+
+.partners-sprite-02 {
+    width: 41px;
+    height: 39px;
+    background-position: -214px -10px;
+}
+
+.partners-sprite-02:hover {
+    width: 41px;
+    height: 39px;
+    background-position: -275px -10px;
+}
+
+.partners-sprite-03 {
+    width: 35px;
+    height: 38px;
+    background-position: -10px -69px;
+}
+
+.partners-sprite-03:hover {
+    width: 35px;
+    height: 38px;
+    background-position: -65px -69px;
+}
+
+.partners-sprite-04 {
+    width: 33px;
+    height: 41px;
+    background-position: -120px -69px;
+}
+
+.partners-sprite-04:hover {
+    width: 33px;
+    height: 41px;
+    background-position: -173px -69px;
+}
+
+.partners-sprite-05 {
+    width: 35px;
+    height: 41px;
+    background-position: -226px -69px;
+}
+
+.partners-sprite-05:hover {
+    width: 35px;
+    height: 41px;
+    background-position: -281px -69px;
+}
+
+.partners-sprite-06 {
+    width: 31px;
+    height: 46px;
+    background-position: -10px -130px;
+}
+
+.partners-sprite-06:hover {
+    width: 31px;
+    height: 46px;
+    background-position: -61px -130px;
+}
+
+.partners-sprite-07 {
+    width: 53px;
+    height: 23px;
+    background-position: -112px -130px;
+}
+
+.partners-sprite-07:hover {
+    width: 53px;
+    height: 23px;
+    background-position: -185px -130px;
+}
+
+.partners-sprite-08 {
+    width: 39px;
+    height: 33px;
+    background-position: -258px -130px;
+}
+
+.partners-sprite-08:hover {
+    width: 39px;
+    height: 33px;
+    background-position: -112px -183px;
+}
+
+.partners-sprite-09 {
+    width: 46px;
+    height: 37px;
+    background-position: -171px -183px;
+}
+
+.partners-sprite-09:hover {
+    width: 46px;
+    height: 37px;
+    background-position: -237px -183px;
+}
+
+.partners-sprite-10 {
+    width: 97px;
+    height: 24px;
+    background-position: -10px -240px;
+}
+
+.partners-sprite-10:hover {
+    width: 97px;
+    height: 24px;
+    background-position: -127px -240px;
+}
+
+.partners-sprite-11 {
+    width: 38px;
+    height: 38px;
+    background-position: -244px -240px;
+}
+
+.partners-sprite-11:hover {
+    width: 38px;
+    height: 38px;
+    background-position: -336px -10px;
+}
+
+.partners-sprite-12 {
+    width: 27px;
+    height: 27px;
+    background-position: -336px -68px;
+}
+
+.partners-sprite-12:hover {
+    width: 27px;
+    height: 27px;
+    background-position: -336px -115px;
+}
+
+.partners-sprite-13 {
+    width: 35px;
+    height: 36px;
+    background-position: -317px -162px;
+}
+
+.partners-sprite-13:hover {
+    width: 35px;
+    height: 36px;
+    background-position: -303px -218px;
+}
+
+.partners-sprite-14 {
+    width: 51px;
+    height: 51px;
+    background-position: -302px -274px;
+}
+
+.partners-sprite-14:hover {
+    width: 51px;
+    height: 51px;
+    background-position: -394px -10px;
+}
+
+.partners-sprite-15 {
+    width: 35px;
+    height: 38px;
+    background-position: -383px -81px;
+}
+
+.partners-sprite-15:hover {
+    width: 35px;
+    height: 38px;
+    background-position: -383px -139px;
+}

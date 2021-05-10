@@ -1,0 +1,130 @@
+/*
+.callback-btn {
+	background-color: #ed1c24;
+}
+.callback-btn:hover {
+	background-color: #ed1c24;
+}
+.pupap_header{
+    padding: 5%;
+    color:white;
+    font-size: 1.2rem;
+    background-color: #1c75bc;
+    font-weight: bolder;
+    border-radius: 5px 5px 0 0;
+}
+.pupap_header .close{
+    float: right;
+    cursor: pointer;
+}
+.close_black{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top:20px;
+    width: 18px;
+    height: 18px;
+    background-image:url(/img/icons/close_X_black.png);
+    z-index: 10;
+}
+.callback_block_popup label{
+    margin-bottom: 0.5rem;
+    color:#5e707f;
+    text-transform: uppercase;
+    border-radius: 0 0 5px 5px;
+}
+.callback_block_popup input{
+    width:100%;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+	border-radius: 4px;
+}
+.captcha-input{
+	width:48% !important;
+	display: inline !important;
+}
+.captcha-box label{
+	display: block;
+	margin-bottom: 0 !important;
+}
+.captcha-box img{
+	vertical-align: middle;
+	padding-bottom: 0.8rem;
+	width: 48%;
+	float: right;
+}
+.layout_callback {
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+.requre_info{
+    color:#5e707f;
+    padding: 0.5rem;
+    float: right;
+}
+
+
+.call_text {
+    background-color: #dbe4eb;
+    border-radius: 45px 0 0 45px;
+    top: 9px;
+    position: inherit;
+    padding: 19px 34px 18px 26px;
+}
+.callback_block_form input.error{
+    border-color: #b94a48;
+    -webkit-box-shadow: inset 0 0px 3px #b94a48;
+    box-shadow: inset 0 0px 3px #b94a48;
+}
+.callback_block_popup:after{
+    background-image: url(/img/icons/corn.png);
+    background-size: cover;
+    content: '';
+    margin: 0;
+    width: 24px;
+    position: absolute;
+    height: 27px;
+    right: -25px;
+    top: 50%;
+    margin-left: -12px;
+    bottom: -1.6rem;
+    transform: rotate(270deg);
+}
+
+.answer  {
+    color: green;
+    font-size: 1.3rem;
+    position: relative;
+}
+.answer .error{
+    color:red ;
+}
+*/
+
+
+.form-table{
+    width: 100%;
+}
+.form tr{
+    height: 45px;
+}
+
+.form td{
+    width: 50%;
+}
+.form .uploader{
+    width: 330px;
+}
+.message-area{
+    padding-top: 7px;
+}
+.form .captcha_img{
+    margin-right: 20px;
+}
+.callback_block_form .error {
+    border-color: #e02222;
+}
